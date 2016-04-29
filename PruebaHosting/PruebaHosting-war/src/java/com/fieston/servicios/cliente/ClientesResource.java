@@ -53,6 +53,7 @@ public class ClientesResource {
     @Produces(MediaType.APPLICATION_JSON)
     public String getJson() {
         //TODO return proper representation object
+        System.out.println("VAPAI");
         return "HOLAAAA";
     }
 
