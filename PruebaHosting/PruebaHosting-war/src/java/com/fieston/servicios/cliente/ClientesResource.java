@@ -6,7 +6,10 @@
 package com.fieston.servicios.cliente;
 
 import com.fieston.cliente.bean.negocio.ClienteNegocioBeanLocal;
+//import com.fieston.cliente.bean.persistencia.ClientePersistenciaBean;
 import com.fieston.cliente.entity.Cliente;
+//import com.fieston.persistencia.BaseDatosBean;
+
 import com.google.gson.Gson;
 import javax.ejb.EJB;
 import javax.ws.rs.core.Context;
